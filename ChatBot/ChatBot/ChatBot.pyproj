@@ -22,7 +22,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ChatBot.py" />
+    <Compile Include="handlers\menu.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="handlers\terms.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="create_bot.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
